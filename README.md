@@ -1,1 +1,1 @@
-# digitale-w-hrungen-wwi18seb
+# Digitale Währungen WWI19SEB
