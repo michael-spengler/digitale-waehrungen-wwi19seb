@@ -26,7 +26,22 @@ https://ethereum.stackexchange.com/
 Smart Contracts = Programme auf einer Blockchain z.B. auf der Ethereum Blockchain    
 Solidity = Programmiersprache für Smart Contracts auf der Ethereum Blockchain   
 remix.ethereum.org (Online IDE zur Entwicklung, Test & Deployment von Smart Contracts)   
+ERC20 Währungen  
+ERC721 NFT (unique collictables)   
+Web1 (static html pages mit links - internet in den 90 ern)  
+Web2 (dynamic pages mit javascript (Brendan Eich))  
+Web3 (decentralized web)  
 https://coinmarketcap.com/  
+
+Gas Fees kommen typischerweise bei Ethereum zustande für: 1. Konsensfindung 2. Storage 3. CPU für EVM Smart Contract Executions
+Sidechain (Polygon) 
+Layer 2 Scaling vs. Sidechains
+
+Arbitrum nutzt zk proofs / rollups um die vertrauenswürdigkeit hochzuhalten ohne die notwendigkeit die o.g. 3 Punkte auf jeder Node zu executen.
+
+
+
+
 
 
 ## Open Source Implementierungen 
