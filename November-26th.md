@@ -26,6 +26,7 @@ https://ethereum.stackexchange.com/
 Smart Contracts = Programme auf einer Blockchain z.B. auf der Ethereum Blockchain    
 Solidity = Programmiersprache für Smart Contracts auf der Ethereum Blockchain   
 remix.ethereum.org (Online IDE zur Entwicklung, Test & Deployment von Smart Contracts)   
+https://coinmarketcap.com/  
 
 
 ## Open Source Implementierungen 
