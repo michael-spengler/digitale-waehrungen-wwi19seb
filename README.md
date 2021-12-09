@@ -71,6 +71,10 @@ contract QuoinoaCoin is ERC20 {
 }
 ```
 4. deploy this smart contract while being connected to the ropsten testnet
+5. check the deployed contract - e.g. https://ropsten.etherscan.io/address/0x0cd57ce21d19b9af6f1b9efda419b17b71e49460
+
+
+
 
 ### Bitcoin basics & Proof of Work
 [Bitcoin basics & PoW](https://www.youtube.com/watch?v=bBC-nXj3Ng4)   
