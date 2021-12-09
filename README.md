@@ -51,7 +51,7 @@ https://deno.land/x/merkletrees
 
 
 
-## 10.12.2021:
+## 10.12.2021
 ### Quoinoa Coin on Ropsten Testnet
 1. get some test ether via https://faucet.ropsten.be/
 2. go to remix.ethereum.org
