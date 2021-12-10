@@ -142,6 +142,22 @@ async function transferQNsToHappyStudent(recipient: string) {
 
 ```
 
+**Deno based Web3 Interaction**  
+
+```ts
+import Web3 from 'https://deno.land/x/web3@v0.7.4/mod.ts'
+
+const providerURL = Deno.args[0]
+
+console.log(`we use the provider url ${providerURL} to connect to the Ethereum Blockchain without running an own Ethereum Node`)
+
+const web3 = new Web3(new Web3.providers.HttpProvider(providerURL))
+
+console.log(web3.eth)
+
+const balance = (await web3.eth.getBalance("0x1a5C6Ad6a05aBEC82Ed8a21d0cb18D1d8Dd5846E"))
+
+```
 
 ### Bitcoin basics & Proof of Work
 [Bitcoin basics & PoW](https://www.youtube.com/watch?v=bBC-nXj3Ng4)   
