@@ -6,7 +6,35 @@
 
 ## Wie verdient man mit Liquidity Pools Geld?
 
-## Wie kann man dabei und allgemein im Krypto-Space Geld verlieren?
+## Welche Szenarien können dafür sorgen, dass ich als Liquidity Provider 1. Verlust mache 2. anderweitig (durch long term hoddling) mehr verdienen würde?
+<z.B. am Beispiel ETH <-> DAI (algorithmic stable coin) erläutern>
+
+## Opportunitätskosten 
+... sind diejenigen Kosten, die dadurch entstehen, dass ich eine bestimmte Investmentoption NICHT gewählt habe... 
+
+## Wie kann man allgemein im Krypto-Space Geld verdienen?
+Yield Farming (ich krieg halt Zinsen dafür dass ich Kohle bereitstelle)  
+NFTs erstellen und verkaufen 
+Algorithmic Trading
+
+## Was verstehen Sie unter einem Non Fungible Token? Kennen Sie ein template dafür?
+... unique ... 
+... ERC721 ...
+
+## Was verstehen Sie unter einem Fungible Token? Kennen Sie ein template dafür?
+Currencies sind typischerweise als fungible tokens implementiert... austauschbar... 
+ERC20
+
+## Programmable Money
+
+## Exchanges
+### Decentralized Exchanges
+z.B. Uniswap
+
+### Centralized Exchanges
+Coinbase
+Binance.com 
+Bybit
 
 ## Warum sind diese Pools wichtig für den Erfolg einer Währung?
 
@@ -54,3 +82,5 @@ Fremdkapital (Zentralbankmoney (wird es das noch geben bei CBDCs?) oder Anlegerm
 ## Was ist das Kernprinzip hinter Proof of Work?
 
 ## Vergleichen Sie Custodial Wallets vs. Non-Custodial Wallets
+
+
