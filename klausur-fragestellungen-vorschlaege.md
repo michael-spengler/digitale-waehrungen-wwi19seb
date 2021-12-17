@@ -2,6 +2,8 @@
 
 ## Worin liegt der Unterschied zwischen Ether und Ethereum?
 
+## Was verstehen Sie unter einem Smart Contract?
+
 ## Was sind Liquidity Pools?
 
 ## Wie verdient man mit Liquidity Pools Geld?
