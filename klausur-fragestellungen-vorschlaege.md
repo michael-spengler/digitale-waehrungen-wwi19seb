@@ -9,7 +9,7 @@
 ## Welche Szenarien können dafür sorgen, dass ich als Liquidity Provider 1. Verlust mache 2. anderweitig (durch long term hoddling) mehr verdienen würde?
 <z.B. am Beispiel ETH <-> DAI (algorithmic stable coin) erläutern>
 
-## Opportunitätskosten 
+## Was sind Opportunitätskosten? 
 ... sind diejenigen Kosten, die dadurch entstehen, dass ich eine bestimmte Investmentoption NICHT gewählt habe... 
 
 ## Wie kann man allgemein im Krypto-Space Geld verdienen?
@@ -41,10 +41,6 @@ Bybit
 ## Worin liegen die Unterschiede zwischen Web 1, Web 2, Web 3? 
 
 ## Was sind Gasfees und warum sind diese nötig?
-
-## Was versteht man unter dem Double-/Over-Spending-Problem?
-
-## Was müsste passieren, damit ein 51%-Attack zustande kommt und welche Folgen hätte dies?
 
 ## Was halten Sie von der potentiellen Einführung von Central Bank Digital Currencies?
 Vorteile:
@@ -82,5 +78,25 @@ Fremdkapital (Zentralbankmoney (wird es das noch geben bei CBDCs?) oder Anlegerm
 ## Was ist das Kernprinzip hinter Proof of Work?
 
 ## Vergleichen Sie Custodial Wallets vs. Non-Custodial Wallets
+
+## Angenommen Sie sind bei Warren Buffet zum Abendessen eingeladen - Worüber sprechen Sie? Würden Sie probieren Ihn von einem Investment in Ihr Ethereum based startup zu begeistern? Wenn ja wie?
+
+# Lernen Durch Lehren Referatsvorschläge: 
+## Welche Rolle spielen Merkle Trees im Bitcoin System? (3-4 Leute)
+
+## Welche Rolle spielen Patricia Tries im Ethereum Network? (4-6 Leute)
+
+## Repräsentiert der folgende Solidity Code eine valide Implementierung eines Merkle Trees? Wenn nein - was fehlt? (4-6 Leute)
+Vorlage TypeScript Code https://deno.land/x/merkletrees@v1.3.0
+
+## Welche Rolle spielt SHA256 im Bitcoin System? (3-4 Leute)
+
+## Was versteht man unter dem Double-/Over-Spending-Problem?
+
+## Was müsste passieren, damit ein 51%-Attack zustande kommt und welche Folgen hätte dies?
+
+
+
+
 
 
