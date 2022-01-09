@@ -118,9 +118,9 @@ contract TestMerkleProof is MerkleProof {
 
 ## 2. Theoretischer Teil (30 Punkte)
 
-### 2.1 Angenommen niemand interessiert sich für die von Ihnen unter 1.1 bereitgestellte Währung. Inwiefern könnte sich dies durch die Definition eines Liquidity Pools für Ihre Währung bei Uniswap ändern (3 Punkte)?
+### 2.1 Angenommen niemand interessiert sich für die von Ihnen unter 1.1 bereitgestellte Währung. Inwiefern könnte sich dies durch die Erstellung eines Liquidity Pools für Ihre Währung bei Uniswap ändern (3 Punkte)?
 
-### 2.2 Wie würden Sie den in 1.3 angesprochenen Liquiditypool gestalten (2 Punkte)?
+### 2.2 Wie würden Sie den in 2.1 angesprochenen Liquiditypool gestalten um die Capital Efficiency des von Ihnen eingesetzten Kapitals zu optimieren (2 Punkte)?
 
 ### 2.3 Woraus ergeben Sich aus Ihrer Sicht Unterschiede im Hinblick auf die Capital Efficiency zwischen dem CeFi und dem DeFi system (2 Punkte)?
 
