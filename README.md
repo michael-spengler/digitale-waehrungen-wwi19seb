@@ -16,7 +16,7 @@ In dieser Kategorie finden wir hauptsächlich Scams. Diese Kategorie umfasst sol
 # Blockchain Technologie 
 Im Rahmen dieser Vorlesungsreihe konzentrieren wir uns weitgehend auf Bitcoin und Ether und erkunden anhand von diesen beiden die Blockchaintechnologie und einige weitere Anwendungsmöglichkeiten dieser Technologie.
 
-## Bekannte Anwendungsmöglichkeiten 
+## 1 Bekannte Anwendungsmöglichkeiten 
 
 ### 1.1 Cryptowährungen
 Cryptowährungen als Teilmenge digitaler Währungen... 
