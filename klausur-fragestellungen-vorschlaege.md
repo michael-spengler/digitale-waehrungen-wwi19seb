@@ -67,7 +67,7 @@ Sonstige Stichworte...
 Auswirkungen auf die Stabilität des Geldsystems... hier gibt es m.E. stabilisierende und potentiell destabilisierende Elemente... 
 
 
-## Auswirkungen von CBDS auf Geschäftsmodelle von Geschäftsbanken
+## Auswirkungen von CBDCS auf Geschäftsmodelle von Geschäftsbanken
 
 Aktiva (Mittelverwendung) 
 ...Immobiliendarlehen an Moritz 100.000 EUR = Forderung aus Sicht der Geschäftsbank
