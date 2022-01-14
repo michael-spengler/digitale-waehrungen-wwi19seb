@@ -97,7 +97,13 @@ Vorlage TypeScript Code https://deno.land/x/merkletrees@v1.3.0
 
 ## Was müsste passieren, damit ein 51%-Attack zustande kommt und welche Folgen hätte dies?
 
+## Begründen Sie den Vorzug von Patricia Tries im Gegensatz zu Tries im Ethereum Netzwerk
+Lösung: Effizienz bei der Speichernutzung, Schnelligkeit im Gebrauch, wichtig durch ständige Änderungen
+Bietet sämtliche Funktionen, die Trie auch bietet: Suchen/Ersetzen/Löschen
+Patricia ist besonderer Radix 2 Trie
 
+## Wie werden im Ethereum Netzwerk globale Daten gespeichert?
+Lösung: Patricia Tries: Im World State Trie werden Adressen und Kontostände abgebildet. Dieser wird ständig aktualisiert. Der Storage Root zeigt auf den Account Storage Trie, bei dem die Konten mit den zugehörigen Daten verbunden sind. Vertragsdaten, Transkaktionszahlen etc. Transaktionen sind im Transaction tRie gespeichert: alle Transktionen mit Weltzustand (Kontostand), nicht mehr änderbar. Transaction Receipt Trie zeichnet Ergebnisse der Transaktionen auf und hat als Quittung den Hash der Transaktion mit Mapping auf Transction Trie.
 
 
 
