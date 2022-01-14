@@ -26,6 +26,9 @@ https://github.com/distributed-ledger-technology/airdrop
 
 ### NFTs - Kunst / Collectibles
 
+## Blockchain Verbindung
+### Wie können Sie grundsätzlich z.B. TypeScript / Deno Programme mit der Ethereum Blockchain verbinden?
+
 
 
 ## Ziele der Klausur
