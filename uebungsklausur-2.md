@@ -8,6 +8,8 @@
 ### Datenstrukturen (Merkletrees, Bloomfilter, Merkle-Patricia-Trie)
 Erläutern Sie einen Anwendungsfall von Bloomfilters   
 Bitset Länge Optimieren / Number of Hash Functions optimieren   
+Inwiefern spielt die Anzahl der genutzten Hash Funktionen bei einem Bloomfilter eine Rolle...?
+https://hur.st/bloomfilter/?n=100000&p=0.6&m=&k=1
 
 
 ### Konsensalgorithmen 
@@ -21,7 +23,6 @@ https://deno.land/x/merkletrees
 https://deno.land/x/tries
 https://deno.land/x/hash
 
-Inwiefern spielt die Anzahl der genutzten Hash Funktionen bei einem Bloomfilter eine Rolle?
 
 ```ts
 import { BloomFilter } from "https://deno.land/x/bloomfilter/mod.ts"
