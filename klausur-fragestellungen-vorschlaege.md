@@ -113,16 +113,18 @@ Im ersten Schritt werden die untersten Werte (z.B. Namen) gehasht. Danach werden
 
 ## Wie werden Merkle Trees im Kontext von Kryptowährungen eingesetzt?
 Lösung:
-Alle Transaktionen werden gehasht und mit ihrem Nachbarn konkateniert. Danach werden diese erneut gehasht und dies wird solange durchgeführt, bis ein Root-Hash(Hash des Blocks) entsteht
+Alle Transaktionen werden einzeln gehasht. Im Anschluss werden sie mit ihrem Nachbarn konkateniert und erneut gehasht. Dies wird solange durchgeführt, bis ein Root-Hash(Hash des Blocks) entsteht. Durch die Merkle Trees werden Simplified Payment Verification vereinfacht, indem nicht alle Transaktionen geteilt werden müssen, sondern nur die, die für die Berechnung des Root-Hashes benötigt werden. Dies Prinzip wird als Light Node bezeichnet.  
+
 
 ## Welche Probleme können durch Merkle-Trees gelöst werden?
 Lösung: 
-Die Merkle-Trees ermöglichen sicheres agieren in einer dezentralen no-trust environment durch die voll oder teilverifikation einzelner Daten.
+Wird im laufe der nächsten Tage bearbeitet ...
+Die Merkle-Trees ermöglichen sicheres agieren in einer dezentralen no-trust environment durch die Voll- oder Teilverifikation  einzelner Daten.
 
 ## Warum werden AirDrops durchgeführt? (Multiple Choice)
-- [x] Early Adapters belohnen
+- [x] Early Adopters belohnen
 - [x] Voting Power verteilen
-- [ ] Währung deployn
-- [ ] Denial of service Angriffe durchführen
+- [ ] Währung deployen
+- [ ] Denial of Service Angriffe durchführen
 
 
