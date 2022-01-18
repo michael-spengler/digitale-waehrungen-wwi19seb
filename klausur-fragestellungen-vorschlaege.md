@@ -109,26 +109,26 @@ Patricia ist besonderer Radix 2 Trie
 Lösung: Patricia Tries: Im World State Trie werden Adressen und Kontostände abgebildet. Dieser wird ständig aktualisiert. Der Storage Root zeigt auf den Account Storage Trie, bei dem die Konten mit den zugehörigen Daten verbunden sind. Vertragsdaten, Transkaktionszahlen etc. Transaktionen sind im Transaction tRie gespeichert: alle Transktionen mit Weltzustand (Kontostand), nicht mehr änderbar. Transaction Receipt Trie zeichnet Ergebnisse der Transaktionen auf und hat als Quittung den Hash der Transaktion mit Mapping auf Transction Trie.
 
 ## Was ist eine 51%-Attacke und wie unterscheiden sie sich bei unterschiedlichen Blockchain-Technologien (PoW, PoS)?
-Lösung: Ein 51%-Angriff liegt vor, wenn jemand 51% einer Kryptowährung kontrolliert und diese Mehrheit nutzt, um die Blockchain zu verändern. 
 Bei Proof of Work-Blockchains benötigt der Angreifer mehr als die Hälfte der Rechenleistung des Netzwerks.
-Bei Proof of -Blockchains benötigt der Angreifer mehr als die Hälfte der Stakes.
+Bei Proof of Stake-Blockchains benötigt der Angreifer mehr als die Hälfte der Stakes.
 
-## Erkläre eine 51%-Attacke auf eine PoW-Blockchain anhand eines Beispiels?
+
+## Erkläre eine 51%-Attacke auf eine PoW-Blockchain anhand eines Beispiels.
 Lösung: 
 Allgemein: 
 - Person hat 51% der Rechenleistung
-- Blöcke minen auf eigener Blockchain
-- Veröffentlichen der eigenen Blockchain, sobald eigene mehr Blöcke besitzt wie die öffenliche Blockchain
-- Da eigene Blockchain länger ist, wird diese vom Netzwerk als valide angenommen, wodurch die Transaktionen auf öffentlicher Blockchain rückgängig gemacht werden (die nach ersten Block in privater Blockchain durchgeführt wurden)
+- Angreifer minet Blöcke auf eigener Version der Blockchain
+- Veröffentlichen der eigenen Version, sobald eigene Version mehr Blöcke besitzt wie die öffenliche Version der Blockchain
+- Da eigene Blockchain länger ist, wird diese vom Netzwerk als valide angenommen, wodurch die Transaktionen der öffentlichen Version der Blockchain rückgängig gemacht werden (die nach erstem Block in privater Blockchain durchgeführt wurden)
 Beispiel: 
 - Online-Kauf mit Krypto-Bezahlung 
 - Bitcoin auf öffentlicher Blockchain versenden
 - Veröffentlichen der eigenen Blockchain, nachdem Paket versendet wurde
 - Somit werden alle Transaktionen im Zeitraum rückgängig gemacht, und durch die in der privaten Blockchain festgelegten Transaktionen ersetzt
-- somit hat man effektiv kein Geld an den Verkäufer gezahlt
+- somit hat der Angreifer effektiv kein Geld an den Verkäufer gezahlt
  
-## Warum ist eine 51%-Attacke in der Praxis sehr unwahrscheinlich?
+## Warum ist eine 51%-Attacke auf die Bitcoin-Blockchain sehr unwahrscheinlich?
 Lösung:
-- sehr auffällig, da einige Netzwerkteilnehmer die fehlenden Transaktionen auffallen werden und bei offiziellem Kauf (zumindest in EU) rechtliche Schritte folgen könnten --> somit sinkt Vertrauen in Kryptowährung und gleichzeitig der Preis
-- sehr riskant und kostenaufwändig bei Kryptowährungen mit einer hohen Marktkapitalisierung, da mehrere Millionen bzw. Milliarden aufgewendet werden müssten, um erforderliche Rechenleistung zu erhalten. Selbst bei 51% verfügbarer Rechenleistung ist der Erfolg eines Angriffs nicht garantiert, da die Geschwindigkeit des Minen von Blöcken auf Wahrscheinlichkeit basiert und die Minderheit trotzdem noch mehr Blöcke minen könnte.
+- sehr auffällig, da einigen Netzwerkteilnehmer die fehlenden Transaktionen auffallen werden und bei offiziellem Kauf (zumindest in EU) rechtliche Schritte folgen könnten
+- sehr riskant und kostenaufwändig, da mehrere Millionen bzw. Milliarden aufgewendet werden müssten, um erforderliche Rechenleistung zu erhalten. Selbst bei 51% verfügbarer Rechenleistung ist der Erfolg eines Angriffs nicht garantiert, da die Geschwindigkeit des Minen von Blöcken auf Wahrscheinlichkeit basiert und die Minderheit trotzdem noch mehr Blöcke minen könnte.
 
