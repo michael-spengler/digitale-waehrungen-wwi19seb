@@ -119,7 +119,10 @@ Alle Transaktionen werden gehasht und mit ihrem Nachbarn konkateniert. Danach we
 Lösung: 
 Die Merkle-Trees ermöglichen sicheres agieren in einer dezentralen no-trust environment durch die voll oder teilverifikation einzelner Daten.
 
-
-
+## Warum werden AirDrops durchgeführt? (Multiple Choice)
+- [x] Early Adapters belohnen
+- [x] Voting Power verteilen
+- [ ] Währung deployn
+- [ ] Denial of service Angriffe durchführen
 
 
