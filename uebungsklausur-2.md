@@ -115,5 +115,13 @@ https://deno.land/x/airdrop@v0.1.0/example-abis/ropsten-0x7910f84868488da3377833
 #### Solidity
 
 
+## Eigeninitiative / Eigeninteresse
+Describe you own favorite topic wrt the Blockchain space (4 Punkte)    
+
+
+
+
+
+
 
 
