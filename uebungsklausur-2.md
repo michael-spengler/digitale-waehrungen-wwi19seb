@@ -93,9 +93,10 @@ https://deno.land/x/airdrop
 
 Welche Informationen und Module benötigen Sie wenn Sie einen Airdrop für Ihre Early Adopters gestalten möchten, welchen Sie über ein TypeScript Programm lancieren?
 
-1. Empfänger Wallet Address
+1. Empfänger Wallet Adressen
 2. ABI
 3. https://deno.land/x/web3
+4. provider url (e.g. von infura.io oder zu einer eigenen Ethereum node,...)
 
 
 ```ts
