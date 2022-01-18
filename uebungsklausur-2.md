@@ -1,14 +1,22 @@
 # Übungsklausur 2 - Under Construction
 
 ## Grundlagen zur Blockchaintechnologie
+
+### Distributed Ledgers / Verteilte Logbücher
+Unter welchen Umständen ist die Nutzung von verteilten Logbüchern im Vergleich zu zentral verwalteten Logbüchern empfehlenswert?
+
 ### Einwegfunktionen
 https://deno.land/x/hash
+
+Welche Einwegfunktion spielt im Bitcoin System eine wesentliche Rolle bzw. zwei wesentliche Rollen? Bitte erläutern Sie dies.
 
 ### Asynchrone Verschlüsselung / Public Key Verschlüsselung 
 1. Digitale Signaturen (Authentizität)   
 2. Verschlüsselung an sich (Privacy)  
 
 Bitte beschreiben Sie ein Szenario welches typisch ist für die Kombination aus 1 & 2 im Detail.
+
+Inwiefern spielen digitale Signaturen bei Cryptowährungen wie Bitcoin & Ether eine wesentliche Rolle?  
 
 ### Datenstrukturen 
 https://deno.land/x/bloomfilter  
@@ -52,12 +60,13 @@ Bitte erläutern Sie mindestens einen Anwendungsfall von Merkletrees.
 
 
 ### Konsensalgorithmen 
-Proof of Work  
-Proof of Stake 
 
+Bitte erläutern Sie die Notwendigkeit von Konsensalgorithmen in einem verteilten System wie z.B. der Ethereum Blockchain.  
 
-#### Solidity
-tbd
+Aus welchen Gründen plant Vitalik Buterin & Friends aus Ihrer Sicht den Umstieg von Proof of Work auf Proof of Stake?
+
+Bitte erläutern Sie wie ein "51% Angriff" auf die Bitcoin Blockchain gestaltet werden könnte und wie ein potentieller Angreifer davon beispielsweise profitieren könnte.
+
 
 ## Anwendungsgebiete der Blockchaintechnologie
 ### Digitale Währungen 
