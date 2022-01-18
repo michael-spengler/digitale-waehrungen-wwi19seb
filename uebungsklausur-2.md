@@ -8,6 +8,8 @@ https://deno.land/x/hash
 1. Digitale Signaturen (Authentizität)   
 2. Verschlüsselung an sich (Privacy)  
 
+Bitte beschreiben Sie ein Szenario welches typisch ist für die Kombination aus 1 & 2 im Detail.
+
 ### Datenstrukturen 
 https://deno.land/x/bloomfilter  
 https://deno.land/x/merkletrees  
