@@ -4,7 +4,9 @@
 ### Einwegfunktionen
 https://deno.land/x/hash
 
-### asynchrone Verschlüsselung / Public Key Verschlüsselung --> 1. Digitale Signaturen (Authentizität) 2. Verschlüsselung an sich (Privacy)
+### Asynchrone Verschlüsselung / Public Key Verschlüsselung 
+1. Digitale Signaturen (Authentizität)   
+2. 2. Verschlüsselung an sich (Privacy)  
 
 ### Datenstrukturen (Merkletrees, Bloomfilter, Merkle-Patricia-Trie)
 https://deno.land/x/bloomfilter  
