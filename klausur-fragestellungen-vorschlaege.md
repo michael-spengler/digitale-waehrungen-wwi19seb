@@ -106,6 +106,20 @@ Patricia ist besonderer Radix 2 Trie
 ## Wie werden im Ethereum Netzwerk globale Daten gespeichert?
 Lösung: Patricia Tries: Im World State Trie werden Adressen und Kontostände abgebildet. Dieser wird ständig aktualisiert. Der Storage Root zeigt auf den Account Storage Trie, bei dem die Konten mit den zugehörigen Daten verbunden sind. Vertragsdaten, Transkaktionszahlen etc. Transaktionen sind im Transaction tRie gespeichert: alle Transktionen mit Weltzustand (Kontostand), nicht mehr änderbar. Transaction Receipt Trie zeichnet Ergebnisse der Transaktionen auf und hat als Quittung den Hash der Transaktion mit Mapping auf Transction Trie.
 
+# Fragen zu Merkle-Trees
+## Wie funktionieren Merkle Trees?
+Lösung:
+Im ersten Schritt werden die untersten Werte (z.B. Namen) gehasht. Danach werden immer die Hashwerte die nebeneinander stehen konkateniert und im Anschluss erneut gehasht. Dieser Ablauf wird so oft durchgeführt, bis der Root Hash berechnet wurde. 
+
+## Wie werden Merkle Trees im Kontext von Kryptowährungen eingesetzt?
+Lösung:
+Alle Transaktionen werden gehasht und mit ihrem Nachbarn konkateniert. Danach werden diese erneut gehasht und dies wird solange durchgeführt, bis ein Root-Hash(Hash des Blocks) entsteht
+
+## Welche Probleme können durch Merkle-Trees gelöst werden?
+Lösung: 
+Die Merkle-Trees ermöglichen sicheres agieren in einer dezentralen no-trust environment durch die voll oder teilverifikation einzelner Daten.
+
+
 
 
 
