@@ -3,7 +3,7 @@
 ## Grundlagen zur Blockchaintechnologie
 
 ### Distributed Ledgers / Verteilte Logbücher
-Unter welchen Umständen ist die Nutzung von verteilten Logbüchern im Vergleich zu zentral verwalteten Logbüchern empfehlenswert?
+Unter welchen Umständen ist die Nutzung von verteilten Logbüchern im Vergleich zu zentral verwalteten Logbüchern aus Ihrer Sicht empfehlenswert?
 
 ### Einwegfunktionen
 https://deno.land/x/hash
