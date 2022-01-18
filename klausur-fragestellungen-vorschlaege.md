@@ -106,6 +106,36 @@ Patricia ist besonderer Radix 2 Trie
 ## Wie werden im Ethereum Netzwerk globale Daten gespeichert?
 Lösung: Patricia Tries: Im World State Trie werden Adressen und Kontostände abgebildet. Dieser wird ständig aktualisiert. Der Storage Root zeigt auf den Account Storage Trie, bei dem die Konten mit den zugehörigen Daten verbunden sind. Vertragsdaten, Transkaktionszahlen etc. Transaktionen sind im Transaction tRie gespeichert: alle Transktionen mit Weltzustand (Kontostand), nicht mehr änderbar. Transaction Receipt Trie zeichnet Ergebnisse der Transaktionen auf und hat als Quittung den Hash der Transaktion mit Mapping auf Transction Trie.
 
+## Warum verursacht das Bitcoin-Mining so einen hohen Stromverbrauch?
+-> Proof of Work -> Einfach viel Rechenleistung reinstecken -> Kampf, um Blöcke -> Ineffizient, weil viele minen und nur einer den Block bekommt
 
+## Gibt es eine umweltfreundliche Lösung für das Mining-Problem? Wenn ja, erklären Sie diese.
+-> Proof of Stake (erläutern)
 
+## Was sind Altcoins?
 
+## Was sind stable Coins?
+
+## Zeichnen Sie einen Trie mit dem Wort "Apple", "Ape", "Organ", "Organism".
+
+## Zeichnen Sie den entsprechenden Patricia Trie.
+
+## Unter welchen Voraussetzungen ist es sinnvoll ein Problem mit der Blockchain-Technologie zu lösen?
+1. Die Anwendung liegt in digitalisierter Form vor. Blockchains können nur auf digi- talen Daten operieren.
+2. Die Anwendung soll von verschiedenen Marktteilnehmern mit unterschiedli- chen Zielen genutzt werden. Hätten sie alle das gleiche Ziel, so ist ein verteiltes Logbuch nicht erforderlich.
+3. Es ist keine zentrale Instanz realisierbar, die von allen akzeptiert wird. Wäre dem so, so sollte die Applikation über diesen zentralen Dienst durchgeführt werden.
+4. Der Aufwand für die Blockchain ist geringer als der Nutzen, der durch Einsatz der Blockchain ermöglicht wird.
+Nur wenn Sie mindestens diese vier Punkte positiv beantworten können, so sollten Sie die Nut- zung einer Blockchain-Anwendung in Erwägung ziehen.
+
+## Warum sind Gasfees auf Sidechains der Ethereum-Blockchain so viel geringer, als auf der Ethereum-Blockchain selbst?
+
+## Wer war der Erfinder von Bitcoin?
+
+## Warum kann eine Transaktion auf der Blockchain nicht rückgängig gemacht werden?
+-> Man kann nur Sachen hinzufügen, nicht verändern.
+
+## Was ist Hoddling?
+
+## Was versteht man unter Volatilität bei Kryptowährungen? Sind Kryptowährungen volatiler als Aktien?
+
+## Was ist Staking? (Kurze Erklärung)
