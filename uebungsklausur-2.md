@@ -6,24 +6,19 @@ https://deno.land/x/hash
 
 ### Asynchrone Verschlüsselung / Public Key Verschlüsselung 
 1. Digitale Signaturen (Authentizität)   
-2. 2. Verschlüsselung an sich (Privacy)  
+2. Verschlüsselung an sich (Privacy)  
 
-### Datenstrukturen (Merkletrees, Bloomfilter, Merkle-Patricia-Trie)
+### Datenstrukturen 
 https://deno.land/x/bloomfilter  
 https://deno.land/x/merkletrees  
-https://deno.land/x/tries  
+https://deno.land/x/tries   
 
-Erläutern Sie einen Anwendungsfall von Bloomfilters   
-Bitset Länge Optimieren / Number of Hash Functions optimieren   
-Inwiefern spielt die Anzahl der genutzten Hash Funktionen bei einem Bloomfilter eine Rolle...?
-https://hur.st/bloomfilter/?n=100000&p=0.6&m=&k=1
+Bitte erläutern Sie mindestens einen Anwendungsfall von Bloomfilters.    
 
+Welche Vor- und Nachteile hat die Erhöhung der Anzahl an Bits im Bitset & welche Vor- und Nachteile hat die Erhöhung der Anzahl an genutzten Hash Funktionen bei Bloomfilters im Allgemeinen. Warum ist das so?  
+(https://hur.st/bloomfilter/?n=100000&p=0.6&m=&k=1)
 
-### Konsensalgorithmen 
-Proof of Work  
-Proof of Stake 
-
-
+Welchen Output erwarten Sie bei der Ausführung des folgenden Codes?
 
 ```ts
 import { BloomFilter } from "https://deno.land/x/bloomfilter/mod.ts"
@@ -43,11 +38,22 @@ for (const entry of testArray) {
 }
 
 let actualTestResult = bloomFilter.test("horse")
-console.log(actualTestResult)
+console.log(actualTestResult) 
 
 actualTestResult = bloomFilter.test("cat")
 console.log(actualTestResult)
 ```
+
+```
+
+Bitte erläutern Sie mindestens einen Anwendungsfall von Merkletrees. 
+
+
+
+### Konsensalgorithmen 
+Proof of Work  
+Proof of Stake 
+
 
 #### Solidity
 tbd
@@ -130,7 +136,7 @@ https://deno.land/x/airdrop@v0.1.0/example-abis/ropsten-0x7910f84868488da3377833
 
 
 ## Eigeninitiative / Eigeninteresse
-Describe you own favorite topic wrt the Blockchain space (4 Punkte)    
+Describe you own favorite topic wrt. the Blockchain space (4 Punkte)    
 
 
 
