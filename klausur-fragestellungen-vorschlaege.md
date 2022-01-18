@@ -100,6 +100,7 @@ Vorlage TypeScript Code https://deno.land/x/merkletrees@v1.3.0
 ## Begründen Sie den Vorzug von Patricia Tries im Gegensatz zu Tries im Ethereum Netzwerk
 Lösung: Effizienz bei der Speichernutzung, Schnelligkeit im Gebrauch, wichtig durch ständige Änderungen
 Bietet sämtliche Funktionen, die Trie auch bietet: Suchen/Ersetzen/Löschen
+An den Kanten können Teilstrings gespeichert werden und nciht nur einzelne Zeichen -> Effizienz
 Patricia ist besonderer Radix 2 Trie
 
 ## Wie werden im Ethereum Netzwerk globale Daten gespeichert?
