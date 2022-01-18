@@ -6,9 +6,8 @@
 ### asynchrone Verschlüsselung / Public Key Verschlüsselung --> 1. Digitale Signaturen (Authentizität) 2. Verschlüsselung an sich (Privacy)
 
 ### Datenstrukturen (Merkletrees, Bloomfilter, Merkle-Patricia-Trie)
-Erläutern Sie einen Anwendungsfall von Bloomfilters (2 Punkte)
-Bitset Länge Optimieren / Number of Hash Functions optimieren
-
+Erläutern Sie einen Anwendungsfall von Bloomfilters   
+Bitset Länge Optimieren / Number of Hash Functions optimieren   
 
 
 ### Konsensalgorithmen 
