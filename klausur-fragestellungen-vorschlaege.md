@@ -115,11 +115,13 @@ Bei Proof of Stake-Blockchains benötigt der Angreifer mehr als die Hälfte der 
 
 ## Erkläre eine 51%-Attacke auf eine PoW-Blockchain anhand eines Beispiels.
 Lösung: 
+
 Allgemein: 
 - Person hat 51% der Rechenleistung
 - Angreifer minet Blöcke auf eigener Version der Blockchain
 - Veröffentlichen der eigenen Version, sobald eigene Version mehr Blöcke besitzt wie die öffenliche Version der Blockchain
 - Da eigene Blockchain länger ist, wird diese vom Netzwerk als valide angenommen, wodurch die Transaktionen der öffentlichen Version der Blockchain rückgängig gemacht werden (die nach erstem Block in privater Blockchain durchgeführt wurden)
+
 Beispiel: 
 - Online-Kauf mit Krypto-Bezahlung 
 - Bitcoin auf öffentlicher Blockchain versenden
