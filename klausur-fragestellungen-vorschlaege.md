@@ -106,6 +106,13 @@ Patricia ist besonderer Radix 2 Trie
 ## Wie werden im Ethereum Netzwerk globale Daten gespeichert?
 Lösung: Patricia Tries: Im World State Trie werden Adressen und Kontostände abgebildet. Dieser wird ständig aktualisiert. Der Storage Root zeigt auf den Account Storage Trie, bei dem die Konten mit den zugehörigen Daten verbunden sind. Vertragsdaten, Transkaktionszahlen etc. Transaktionen sind im Transaction tRie gespeichert: alle Transktionen mit Weltzustand (Kontostand), nicht mehr änderbar. Transaction Receipt Trie zeichnet Ergebnisse der Transaktionen auf und hat als Quittung den Hash der Transaktion mit Mapping auf Transction Trie.
 
+## Erläutern sie die FUnktionsweise von Merkletrees. Beschreiben sie 3 Vorteile, welche die Verwendung von Merkletrees mitsich einher bringt
+
+## Ist die folgende Implementierung ein a) Airdrop, b) smart Contract c) Merkletree
+
+## Beschreiben sie, welche Wertschöpfung das Etherium netzwerk ermöglicht
+
+## Diskutieren sie die Vor und Nachteile davon, herkömmliche währungen mit Cryptowährungen zu ersetzen
 
 
 
