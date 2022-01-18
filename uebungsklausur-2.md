@@ -16,8 +16,8 @@ Proof of Stake
 
 ### Implementierungen 
 #### TypeScript
-https://deno.land/x/bloomfilter
-https://deno.land/x/merkletrees
+https://deno.land/x/bloomfilter  
+https://deno.land/x/merkletrees  
 https://deno.land/x/tries
 
 #### Solidity
@@ -33,11 +33,15 @@ CBDCs vs. Ether
 Votingpower hängt z.B. von der Anzahl der gesammelten governance tokens ab... 
 https://github.com/distributed-ledger-technology/airdrop
 
+### Decentralized Web
+Distributed Deployments & DDNS- see https://ens.domains  
+
 ### NFTs - Kunst / Collectibles
 
 ### Implementierungen 
 #### TypeScript
-
+https://deno.land/x/web3  
+https://deno.land/x/airdrop  
 
 #### Solidity
 tbd
