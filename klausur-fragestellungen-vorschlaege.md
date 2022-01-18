@@ -106,6 +106,59 @@ Patricia ist besonderer Radix 2 Trie
 ## Wie werden im Ethereum Netzwerk globale Daten gespeichert?
 Lösung: Patricia Tries: Im World State Trie werden Adressen und Kontostände abgebildet. Dieser wird ständig aktualisiert. Der Storage Root zeigt auf den Account Storage Trie, bei dem die Konten mit den zugehörigen Daten verbunden sind. Vertragsdaten, Transkaktionszahlen etc. Transaktionen sind im Transaction tRie gespeichert: alle Transktionen mit Weltzustand (Kontostand), nicht mehr änderbar. Transaction Receipt Trie zeichnet Ergebnisse der Transaktionen auf und hat als Quittung den Hash der Transaktion mit Mapping auf Transction Trie.
 
+Was ist eine Blockchain?
+[x] Eine Blockchain ist eine verteilte, öffentliche Datenbank
+[ ] Eine Währung
+[ ]Eine zentralisierte Datenbank
+[ ] Eine Art von Kryptowährung
+
+Was bedeutet P2P?
+[ ]Passwort zu Passwort
+[x]Peer to Peer
+[ ]Produkt zu Produkt
+[ ]Privater Schlüssel zu öffentlichem Schlüssel
+
+Was ist eine dApp?
+
+[ ]Eine Art von Kryptowährung
+[ ]Ein Gewürz
+[ ]Eine Art von Blockchain
+[x]Eine dezentralisierte Anwendung
+
+Die erste Blockchain wurde von einer Person (oder einer Gruppe von Personen) namens Satoshi Nakamoto in?
+
+[ ]. 2005
+[x]. 2008
+[ ] 2006
+[ ]. 2004
+
+Wie viele Bitcoins können maximal erzeugt werden?
+
+[ ] 10 Mio
+[x] 21 Mio
+[ ] 100 Mio
+[ ] 560 Mio
+
+
+Wofür steht die Abkürzung "ASIC" im Bezug auf Mininghardware ?
+[x]Application Specific Integrated Circuit
+[ ]Asset Specific Integrated Circuit
+[ ]Altcoin Specific Integrated Circuit
+[ ]Application Specific Initial Coin
+
+Wie werden die Programme genannt, mit deren Hilfe man seine Kryptowährungen verwaltet?
+
+[ ]BitVault
+[x]Wallet
+[ ]Bitbag
+[ ]E-Purse
+
+Was ist die kleinste Einheit von Ethereum?
+
+[x] Wei
+[ ]Finlay
+[ ]Gwei
+[ ]Usce
 
 
 
