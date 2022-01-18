@@ -2,10 +2,15 @@
 
 ## Grundlagen zur Blockchaintechnologie
 ### Einwegfunktionen
+https://deno.land/x/hash
 
 ### asynchrone Verschlüsselung / Public Key Verschlüsselung --> 1. Digitale Signaturen (Authentizität) 2. Verschlüsselung an sich (Privacy)
 
 ### Datenstrukturen (Merkletrees, Bloomfilter, Merkle-Patricia-Trie)
+https://deno.land/x/bloomfilter  
+https://deno.land/x/merkletrees  
+https://deno.land/x/tries  
+
 Erläutern Sie einen Anwendungsfall von Bloomfilters   
 Bitset Länge Optimieren / Number of Hash Functions optimieren   
 Inwiefern spielt die Anzahl der genutzten Hash Funktionen bei einem Bloomfilter eine Rolle...?
@@ -16,12 +21,6 @@ https://hur.st/bloomfilter/?n=100000&p=0.6&m=&k=1
 Proof of Work  
 Proof of Stake 
 
-### Implementierungen 
-#### TypeScript
-https://deno.land/x/bloomfilter  
-https://deno.land/x/merkletrees  
-https://deno.land/x/tries
-https://deno.land/x/hash
 
 
 ```ts
