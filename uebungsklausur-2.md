@@ -62,7 +62,7 @@ tbd
 https://deno.land/x/web3  
 https://deno.land/x/airdrop  
 
-Welche Informationen benötigen Sie wenn Sie einen Airdrop für Ihre Early Adopters gestalten möchten, welchen Sie über ein TypeScript Programm lancieren?
+Welche Informationen und Module benötigen Sie wenn Sie einen Airdrop für Ihre Early Adopters gestalten möchten, welchen Sie über ein TypeScript Programm lancieren?
 
 1. Empfänger Wallet Address
 2. ABI
