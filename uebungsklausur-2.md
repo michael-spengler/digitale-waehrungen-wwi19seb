@@ -27,14 +27,25 @@ https://deno.land/x/hash
 ```ts
 import { BloomFilter } from "https://deno.land/x/bloomfilter/mod.ts"
 
-const bloomFilter = new BloomFilter(1024)
+const numberOfExpectedItemsInArray = 10000
+const falsePositiveRate = 0.1 // 10 percent
 
-const expectedExampleArray = ["dog", "chicken", "cat", "ant", "spider", "lion", "tiger", "elephant", "giraffe", "monkey", "uhu", "bird", "fish", "chamäleon"]
+const numberOfBitsInBitset = BloomFilter.getOptimalNumberOfBits(numberOfExpectedItemsInArray, falsePositiveRate)
+const numberOfHashFunctions = BloomFilter.getOptimalNumberOfHashFunctions(numberOfBitsInBitset, numberOfExpectedItemsInArray))
+
+const bloomFilter = new BloomFilter(numberOfBitsInBitset, numberOfHashFunctions)
+
+const testArray = ["dog", "chicken", "cat"]
 
 for (const entry of testArray) {
     bloomFilter.add(entry)
 }
 
+let actualTestResult = bloomFilter.test("horse")
+console.log(actualTestResult)
+
+actualTestResult = bloomFilter.test("cat")
+console.log(actualTestResult)
 ```
 
 #### Solidity
