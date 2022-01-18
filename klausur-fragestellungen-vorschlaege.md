@@ -91,7 +91,26 @@ Fremdkapital (Zentralbankmoney (wird es das noch geben bei CBDCs?) oder Anlegerm
 ## Repräsentiert der folgende Solidity Code eine valide Implementierung eines Merkle Trees? Wenn nein - was fehlt? (4-6 Leute)
 Vorlage TypeScript Code https://deno.land/x/merkletrees@v1.3.0
 
-## Welche Rolle spielt SHA256 im Bitcoin System? (3-4 Leute)
+## Welche Rolle spielt SHA256 im Bitcoin System? 
+Lösung: Im Bitcoin System wird der SHA256 (= Secure-Hashing-Algorithmus) für das Erstellen neuer Bitcoin Wallet Adressen und das Mining von Blöcken für die Blockchain (also der Validierung von Transaktionen) verwendet. Beim Mining von Blöcken muss das Nonce so lange hochgezählt werden, bis der Block-Hash, der das Nonce enthält, kleiner als das Taget ist. Hierin besteht die Schwierigkeit des Minings. Im Prinzip gibt das Target an, wie viele 0en am Anfang des validen Block-Hashes stehen müssen.
+
+## Welche 3 Bedingungen müssen erfüllt sein, damit eine Hashfunktion als kryptographisch sicher gilt?
+- Sie kann jede beliebige Bit- oder Bytefolge verarbeiten und erzeugt daraus einen Hash von fixer Länge.
+- Sie ist stark kollisionsresistent: Es ist praktisch nicht möglich, zwei unterschiedliche Eingabewerte zu finden, die einen identischen Hash ergeben.
+- Sie ist eine Einwegfunktion: Es ist praktisch nicht möglich, aus dem Hash den Eingabewert zu rekonstruieren.
+
+## Wie läuft eine Transaktion im Bitcoin System ab?
+Lösung: Es werden 3 Informationen benötigt: 
+- Einen Input: dies ist eine Aufzeichnung darüber, welche Sender-Adresse zuvor Alice diese Bitcoins geschickt hat (sie hat sie von ihrer Freundin Eve erhalten).
+- Eine Menge: dies ist die (Teil-)Menge an Bitcoins, die Alice Bob schickt.
+- Einen Output: dies ist die Bitcoin-Adresse von Bob (Empfängeradresse).
+Anschließend werden diese Informationen mit dem eigenen Private-Key signiert und an das Bitcoin Netzwerk gesendet. Im Netzwerk greifen Bitcoin-Miner die Transaktion auf, erstellen mit ihr einen Transaktionsblock und lösen sie eventuell auf.
+
+## Wie wird eine Bitcoin Wallet Adresse generiert?
+Public-Private-Key -> zuerst SHA-256 dann RIPEMD-160 => So entstehen kürzere Adressen als 256 Bit
+öffentlicher Schlüssel ist 256 Bit lang, die gehashte Version, also die Bitcoin Adresse ist 160 Bit lang 
+K = der öffentliche Schlüssel     A = Bitcoin-Adresse:
+A = RIPEMD160(SHA-256(K))
 
 ## Was versteht man unter dem Double-/Over-Spending-Problem?
 
@@ -105,7 +124,6 @@ Patricia ist besonderer Radix 2 Trie
 
 ## Wie werden im Ethereum Netzwerk globale Daten gespeichert?
 Lösung: Patricia Tries: Im World State Trie werden Adressen und Kontostände abgebildet. Dieser wird ständig aktualisiert. Der Storage Root zeigt auf den Account Storage Trie, bei dem die Konten mit den zugehörigen Daten verbunden sind. Vertragsdaten, Transkaktionszahlen etc. Transaktionen sind im Transaction tRie gespeichert: alle Transktionen mit Weltzustand (Kontostand), nicht mehr änderbar. Transaction Receipt Trie zeichnet Ergebnisse der Transaktionen auf und hat als Quittung den Hash der Transaktion mit Mapping auf Transction Trie.
-
 
 
 
