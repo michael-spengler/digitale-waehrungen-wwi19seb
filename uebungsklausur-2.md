@@ -44,7 +44,6 @@ actualTestResult = bloomFilter.test("cat")
 console.log(actualTestResult)
 ```
 
-```
 
 Bitte erläutern Sie mindestens einen Anwendungsfall von Merkletrees. 
 
@@ -89,7 +88,7 @@ Welche Informationen und Module benötigen Sie wenn Sie einen Airdrop für Ihre 
 
 
 ```ts
-
+tbd
 ``` 
 
 #### Solidity
