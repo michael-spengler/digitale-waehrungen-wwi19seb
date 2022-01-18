@@ -93,6 +93,7 @@ Ziel: Der folgende SC soll eine Währung namens QuinoaCoin mit den folgenden Eig
 
 Bitte streichen Sie fehlerhafte Zeilen und ersetzen Sie diese durch korrekte Anweisungen:   
 
+```sol
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity >=0.8.0 < 0.9.0;
 
@@ -111,7 +112,7 @@ contract QuinoaCoin is ERC20 {
     }
     
 }
-
+```
 
 
 ## On-Chain / Off-Chain Verbindungen
