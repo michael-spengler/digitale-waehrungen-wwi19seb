@@ -19,9 +19,8 @@ Bitte beschreiben Sie ein Szenario welches typisch ist für die Kombination aus 
 Inwiefern spielen digitale Signaturen bei Cryptowährungen wie Bitcoin & Ether eine wesentliche Rolle?  
 
 ### Datenstrukturen 
+#### Bloomfilter
 https://deno.land/x/bloomfilter  
-https://deno.land/x/merkletrees  
-https://deno.land/x/tries   
 
 Bitte erläutern Sie mindestens einen Anwendungsfall von Bloomfilters.    
 
@@ -90,7 +89,8 @@ h(3)=12%10=2
 Die 3 würde die Positionen 6, 1 und 2 belegen. Das zuvor errechnete Bitset (1010101110) hat an Position 1 eine 0. Daher würde sich aus der Prüfung der 3 ebenso kein false Positive ergeben.  
 
 
-
+#### Merkletrees
+https://deno.land/x/merkletrees  
 Bitte erstellen Sie einen Merkletree für die Einträge im untenstehenden Beispiel Array unter Nutzung der darunter stehenden Einwegfunktion:   
 const exampleArray = [2,4,8,1]  
 h(x)=(x * 2)%10  
@@ -113,6 +113,12 @@ Angenommen jemand behauptet im Beispielarray wäre eine 9 (anstelle der 1) entha
 
 
 Bitte erläutern Sie mindestens einen Anwendungsfall von Merkletrees.   
+
+
+#### Tries
+https://deno.land/x/tries   
+
+
 
 ### Konsensalgorithmen 
 
