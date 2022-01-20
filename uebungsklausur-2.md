@@ -55,9 +55,9 @@ console.log(actualTestResult)
 ```
 
 Angenommen Sie haben ein Bitset der Länge 10 mit den Bloombits 0 bis 9 sowie die folgenden Einwegfunktionen zur Belegung der Bits:  
-h(1)=(x*2)%10  
-h(2)=(x*3)%10  
-h(3)=(x*4)%10  
+h(1)=(x * 2)%10  
+h(2)=(x * 3)%10  
+h(3)=(x * 4)%10  
 
 Wie sieht das Bitset jeweils nach dem Hinzufügen der folgenden Zahlen aus?  
 const exampleArray = [6, 9, 10]
