@@ -54,6 +54,43 @@ actualTestResult = bloomFilter.test("cat")
 console.log(actualTestResult)
 ```
 
+Angenommen Sie haben ein Bitset der Länge 10 mit den Bloombits 0 bis 9 sowie die folgenden Einwegfunktionen zur Belegung der Bits:  
+h(1)=(x*2)%10  
+h(2)=(x*3)%10  
+h(3)=(x*4)%10  
+
+Wie sieht das Bitset jeweils nach dem Hinzufügen der folgenden Zahlen aus?  
+const exampleArray = [6, 9, 10]
+
+h(1)=12%10=2  
+h(2)=18%10=8  
+h(3)=24%10=4  
+--> Bitset nach dem Hinzufügen der 6: 0010100010  
+
+h(1)=18%10=8  
+h(2)=27%10=7  
+h(3)=36%10=6  
+--> Bitset nach dem Hinzufügen der 9: 0010101110  
+
+h(1)=20%10=0  
+h(2)=30%10=0  
+h(3)=40%10=0  
+--> Bitset nach dem Hinzufügen der 10: 1010101110  
+
+Würde der Bloomfilter für die folgenden Zahlen false positives liefern?  
+const entriesToBeValidated = [11, 3]  
+h(1)=22%10=2  
+h(2)=33%10=3  
+h(3)=44%10=4  
+Die 11 würde die Positionen 2, 3 und 4 belegen. Das zuvor errechnete Bitset (1010101110) hat an Position 3 eine 0. Daher würde sich aus der Prüfung der 11 kein false Positive ergeben.  
+
+h(1)=6%10=6  
+h(2)=9%10=1  
+h(3)=12%10=2  
+Die 3 würde die Positionen 6, 1 und 2 belegen. Das zuvor errechnete Bitset (1010101110) hat an Position 1 eine 0. Daher würde sich aus der Prüfung der 3 ebenso kein false Positive ergeben.  
+
+
+
 
 Bitte erläutern Sie mindestens einen Anwendungsfall von Merkletrees. 
 
