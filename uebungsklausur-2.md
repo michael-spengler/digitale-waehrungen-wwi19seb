@@ -91,10 +91,28 @@ Die 3 würde die Positionen 6, 1 und 2 belegen. Das zuvor errechnete Bitset (101
 
 
 
+Bitte erstellen Sie einen Merkletree für die Einträge im untenstehenden Beispiel Array unter Nutzung der darunter stehenden Einwegfunktion:   
+const exampleArray = [2,4,8,1]  
+h(x)=(x * 2)%10  
 
-Bitte erläutern Sie mindestens einen Anwendungsfall von Merkletrees. 
+h(leafNode1)=(2 * 2)%10=4
+h(leafNode2)=(4 * 2)%10=8
+h(leafNode3)=(8 * 2)%10=6
+h(leafNode4)=(1 * 2)%10=2
+
+h(lN12)=(48 * 2)%10=6
+h(lN34)=(62 * 2)%10=4
+
+h(root)=(64 * 2)%10=8
+
+Angenommen jemand behauptet im Beispielarray wäre eine 9 (anstelle der 1) enthalten. Welche Nodes innerhalb des MerkleTrees würden sich dadurch wie ändern?
+
+1. h(leafNode4) - wäre dann eine 8
+2. h(lN34) - wäre dann (68 * 2) % 10=6
+3. h(root) - wäre dann (66 * 2) % 10=2
 
 
+Bitte erläutern Sie mindestens einen Anwendungsfall von Merkletrees.   
 
 ### Konsensalgorithmen 
 
