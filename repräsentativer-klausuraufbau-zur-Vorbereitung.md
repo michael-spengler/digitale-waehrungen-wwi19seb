@@ -19,6 +19,9 @@ Inwiefern könnte der Zeitraum der Veröffentlichung des Bitcoin Whitepapers (31
 
 Welche Einwegfunktion spielt im Bitcoin System eine wesentliche Rolle bzw. zwei wesentliche Rollen? Bitte erläutern Sie dies.
 
+Bitte nennen Sie 3 Bedingungen, die erfüllt sein müssen, damit eine Hashfunktion aktuell als kryptographisch sicher gilt.
+
+
 ### Asynchrone Verschlüsselung / Public Key Verschlüsselung 
 1. Digitale Signaturen (Authentizität)   
 2. Verschlüsselung an sich (Privacy)  
@@ -70,9 +73,11 @@ h(lN34)=
 h(root)=  
   
 Angenommen jemand behauptet im Beispielarray wäre eine 9 (anstelle der 1) enthalten. Welche Nodes innerhalb des MerkleTrees würden sich dadurch wie ändern?
-
+Lösungscheck siehe Unit Test des bloomfilter moduls.
 
 Bitte erläutern Sie mindestens einen Anwendungsfall von Merkletrees.   
+
+Wie werden Merkle Trees im Kontext von Kryptowährungen eingesetzt?
 
 
 #### Tries
@@ -92,7 +97,14 @@ Bitte erläutern Sie die Notwendigkeit von Konsensalgorithmen in einem verteilte
 
 Was ist das Kernprinzip hinter Proof of Work?  
 
+Was ist das Kernprinzip hinter Proof of Stake?  
+
 Bitte erläutern Sie wie ein "51% Angriff" auf die Bitcoin Blockchain gestaltet werden könnte und wie ein potentieller Angreifer davon beispielsweise profitieren könnte. 
+
+Was ist eine 51%-Attacke und wie unterscheiden sie sich bei unterschiedlichen Blockchain-Technologien (PoW, PoS)?
+Musterlösungen laut Kommilitonen: https://github.com/michael-spengler/digitale-waehrungen-wwi19seb/pull/14/files - bitte stets kritisch prüfen. 
+
+Jemand behauptet dass die Ethereum Blockchain eine Stromverschwendung darstellt und viele der Anwendungen lieber zentral auf einem Server laufen sollten, um Strom zu sparen. Was sagen Sie?
 
 
 ## Anwendungsgebiete der Blockchaintechnologie
@@ -146,10 +158,16 @@ Distributed Deployments / File Servers --> IPFS & DDNS- see https://ens.domains
 
 ### Kunst / Collectibles / GamingAssets - Non Fungible (ERC721) & Semi Fungible (ERC1155) Tokens 
 
+## Smart Contracts
+Bitte beschreiben Sie das Wesen eines Smart Contracts. Inwiefern kann ein Smart Contract als smarte Vereinbarung bezeichnet werden?
+
 ## Wallets
 Vergleichen Sie Custodial Wallets vs. Non-Custodial Wallets und nenne Sie dabei mindestens ein Beispiel für ein non-custodial wallet.
 
 Vergleichen Sie Paperwallets und Browserwallets? In welchem der beiden würden Sie eher eine sehr große Summe an Ether speichern? Warum?
+
+## Stable Coins
+Was verstehen Sie unter einem Stable Coin? Auf welche Arten können Stable Coins implementiert werden? Kennen Sie Beispiele?
 
 
 ## Exchanges / Börsen
@@ -165,6 +183,14 @@ Wofür steht die Abkürzung "ASIC" im Bezug auf Mininghardware?
 [ ] Asset Specific Integrated Circuit   
 [ ] Altcoin Specific Integrated Circuit  
 [ ] Application Specific Initial Coin  
+
+## Airdrops
+Warum werden AirDrops durchgeführt? (Multiple Choice)
+- [x] Early Adopters belohnen
+- [x] Voting Power verteilen
+- [ ] Währung deployen
+- [ ] Denial of Service Angriffe durchführen
+
 
 Welche Idee steht hinter diesem Prinzip?
 
