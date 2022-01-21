@@ -9,7 +9,8 @@ Was ist für Sie das revolutionär Neue an der Blockchaintechnologie?
 
 Inwiefern können wir eine Blockchain als öffentliche, verteilte Datenbank betrachten?
 
-Inwiefern ermöglicht die Blockchain Technologie Peer 2 Peer Geschäfte ohne zentralisierte Mittelsmänner / Institutionen?
+Inwiefern ermöglicht die Blockchain Technologie Peer 2 Peer Geschäfte ohne zentralisierte Mittelsmänner / Institutionen?  
+Hilfestellung: welches sind die zentralen Institution im oldschool CeFi Sysem? Ohne die BC Technology mussten wir zentralen Instituitonen vertrauen...
 
 
 ### Einwegfunktionen
