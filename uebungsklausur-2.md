@@ -118,6 +118,12 @@ Bitte erläutern Sie mindestens einen Anwendungsfall von Merkletrees.
 #### Tries
 https://deno.land/x/tries   
 
+Bitte skizzieren Sie einen klassischen Trie sowie einen PATRICIA Trie für die folgenden Buchstabensequenzen: 
+ape, apple, organ, organism
+
+
+<img width="1344" alt="Screenshot 2022-01-20 at 21 46 51" src="https://user-images.githubusercontent.com/43786652/150440646-71d5f137-ab8e-4d42-905d-3dff469827b2.png">
+
 
 
 ### Konsensalgorithmen 
