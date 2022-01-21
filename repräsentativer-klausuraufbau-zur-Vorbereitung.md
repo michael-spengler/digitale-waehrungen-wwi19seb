@@ -5,6 +5,16 @@
 ### Distributed Ledgers / Verteilte Logbücher
 Unter welchen Umständen ist die Nutzung von verteilten Logbüchern im Vergleich zu zentral verwalteten Logbüchern aus Ihrer Sicht empfehlenswert?
 
+Was ist für Sie das revolutionär Neue an der Blockchaintechnologie?
+
+Inwiefern können wir eine Blockchain als öffentliche, verteilte Datenbank betrachten?
+
+Inwiefern ermöglicht die Blockchain Technologie Peer 2 Peer Geschäfte ohne zentralisierte Mittelsmänner / Institutionen?
+
+Beschreiben Sie ein Szenario, in welchem Sie eine dApp anstelle einer klassischen web app implementieren würden.
+
+Inwiefern könnte der Zeitraum der Veröffentlichung des Bitcoin Whitepapers (31.10.2008 in einer Kryptographie-Mailingliste der Cypherpunks) und der Zeitraum der globalen Finanzkrise 2008 miteinander zusammenhängen?
+
 ### Einwegfunktionen
 
 Welche Einwegfunktion spielt im Bitcoin System eine wesentliche Rolle bzw. zwei wesentliche Rollen? Bitte erläutern Sie dies.
@@ -80,13 +90,16 @@ ape, apple, organ, organism
 
 Bitte erläutern Sie die Notwendigkeit von Konsensalgorithmen in einem verteilten System wie z.B. der Ethereum Blockchain.  
 
+Was ist das Kernprinzip hinter Proof of Work?  
 
-Bitte erläutern Sie wie ein "51% Angriff" auf die Bitcoin Blockchain gestaltet werden könnte und wie ein potentieller Angreifer davon beispielsweise profitieren könnte.
+Bitte erläutern Sie wie ein "51% Angriff" auf die Bitcoin Blockchain gestaltet werden könnte und wie ein potentieller Angreifer davon beispielsweise profitieren könnte. 
 
 
 ## Anwendungsgebiete der Blockchaintechnologie
 ### Digitale Währungen 
-CBDCs vs. Ether
+Was sind für Sie die Hauptunterschiede zwischen einer Central Bank Digital Currency und einer Cryptowährung wie Ether? Was halten Sie von der potentiellen Einführung von Central Bank Digital Currencies? (ca. 7 Sätze)
+
+Was halten Sie davon, dass Richard Nixon 1971 den Goldstandard aufgehoben hat? Warum?   
 
 Der folgende SC soll eine Währung namens QuinoaCoin mit den folgenden Eigenschafte definieren:  
 1. Nachkommastellen: 18
@@ -115,26 +128,45 @@ contract QuinoaCoin is ERC20 {
 }
 ```
 
+Hat eine Währung wie Bitcoin mit einem fixed / max. supply von 21.000.000 aus Ihrer Sicht eher eine inflationäre oder eine deflationäre Tendenz. Bitte erläutern Sie kurz ihre Einschätzung.
+
 
 ### Decentralized Finance
-Stichworte:  
-Lending, Borrowing, Yield Farming, Zahlungsverkehr, Investing
+Stichworte: Smart Contract based Lending, Borrowing, Yield Farming, Zahlungsverkehr, Investing
+Was verstehen Sie unter dem Begriff DeFi? Wie wahrscheinlich ist es aus Ihrer Sicht, dass dieser Ansatz insgesamt an Bedeutung gewinnt? Warum?
 
 ### Decentralized Governance 
+Stichwort: DAO  
 Votingpower hängt z.B. von der Anzahl der gesammelten governance tokens ab... 
 https://github.com/distributed-ledger-technology/airdrop
 
 ### Decentralized Web
+Permanent Deployment / Censorship resistant deployment
 Distributed Deployments / File Servers --> IPFS & DDNS- see https://ens.domains  
 
 ### Kunst / Collectibles / GamingAssets - Non Fungible (ERC721) & Semi Fungible (ERC1155) Tokens 
 
+## Wallets
+Vergleichen Sie Custodial Wallets vs. Non-Custodial Wallets und nenne Sie dabei mindestens ein Beispiel für ein non-custodial wallet.
 
+Vergleichen Sie Paperwallets und Browserwallets? In welchem der beiden würden Sie eher eine sehr große Summe an Ether speichern? Warum?
+
+
+## Exchanges / Börsen
+Was sind für Sie Unterschiede zwischen zentralen Exchanges (e.b. binance.com, coinbase.com etc.) und dezentralen Exchanges (e.g. uniswap.org)? 
 
 ## On-Chain / Off-Chain Verbindungen
 Example: https://deno.land/x/airdrop@v0.1.0/example-airdrops/launch-airdrop-for-wwi19seb.ts ... via TypeScript programm
 Application Binary Interfaces Usage Example: https://deno.land/x/airdrop@v0.1.0/src/airdrop-service.ts#L16 ... um eine Repräsentation des Smart Contracts (der z.B. auf der Ethereum Blockchain deployed ist) im TypeScript Programm zu erhalten und damit Funktionen dieses Smart Contracts vom TypeScript Programm aus zu triggern.
 
+## Mining
+Wofür steht die Abkürzung "ASIC" im Bezug auf Mininghardware?  
+[ ] Application Specific Integrated Circuit  
+[ ] Asset Specific Integrated Circuit   
+[ ] Altcoin Specific Integrated Circuit  
+[ ] Application Specific Initial Coin  
+
+Welche Idee steht hinter diesem Prinzip?
 
 ### Implementierungen
 #### TypeScript
