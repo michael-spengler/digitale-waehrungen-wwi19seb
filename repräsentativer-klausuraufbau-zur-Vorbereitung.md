@@ -53,63 +53,42 @@ actualTestResult = bloomFilter.test("cat")
 console.log(actualTestResult)
 ```
 
-Angenommen Sie nutzen einen Bloomfilter mit einem Bitset der Länge 10 mit den Bloombits 0 bis 9 sowie den folgenden Einwegfunktionen zur Belegung der Bits:  
-h(1)=(x * 2)%10  
-h(2)=(x * 3)%10  
-h(3)=(x * 4)%10  
+Angenommen Sie nutzen einen Bloomfilter mit einem Bitset der Länge 11 mit den Bloombits 0 bis 10 sowie den folgenden Einwegfunktionen zur Belegung der Bits:  
+h(1)=(x * 2)%11  
+h(2)=(x * 3)%11  
+h(3)=(x * 4)%11  
 
 Wie sieht das Bitset jeweils nach dem Hinzufügen der folgenden Zahlen aus?  
-const exampleArray = [6, 9, 10]
+const exampleArray = [2, 5, 6]
 
-h(1)=12%10=2  
-h(2)=18%10=8  
-h(3)=24%10=4  
---> Bitset nach dem Hinzufügen der 6: 0010100010  
+--> Bitset nach dem Hinzufügen der 2:   
 
-h(1)=18%10=8  
-h(2)=27%10=7  
-h(3)=36%10=6  
---> Bitset nach dem Hinzufügen der 9: 0010101110  
+--> Bitset nach dem Hinzufügen der 5:  
 
-h(1)=20%10=0  
-h(2)=30%10=0  
-h(3)=40%10=0  
---> Bitset nach dem Hinzufügen der 10: 1010101110  
+--> Bitset nach dem Hinzufügen der 6:   
 
 Würde der Bloomfilter für die folgenden Zahlen false positives liefern?  
-const entriesToBeValidated = [11, 3]  
-h(1)=22%10=2  
-h(2)=33%10=3  
-h(3)=44%10=4  
-Die 11 würde die Positionen 2, 3 und 4 belegen. Das zuvor errechnete Bitset (1010101110) hat an Position 3 eine 0. Daher würde sich aus der Prüfung der 11 kein false Positive ergeben.  
+const entriesToBeValidated = [3, 34]  
 
-h(1)=6%10=6  
-h(2)=9%10=1  
-h(3)=12%10=2  
-Die 3 würde die Positionen 6, 1 und 2 belegen. Das zuvor errechnete Bitset (1010101110) hat an Position 1 eine 0. Daher würde sich aus der Prüfung der 3 ebenso kein false Positive ergeben.  
 
 
 #### Merkletrees
 https://deno.land/x/merkletrees  
 Bitte erstellen Sie einen Merkletree für die Einträge im untenstehenden Beispiel Array unter Nutzung der darunter stehenden Einwegfunktion:   
-const exampleArray = [2,4,8,1]  
+const exampleArray = [2,7,8,1]  
 h(x)=(x * 2)%10  
 
-h(leafNode1)=(2 * 2)%10=4
-h(leafNode2)=(4 * 2)%10=8
-h(leafNode3)=(8 * 2)%10=6
-h(leafNode4)=(1 * 2)%10=2
+h(leafNode1)=
+h(leafNode2)=
+h(leafNode3)=
+h(leafNode4)=
 
-h(lN12)=(48 * 2)%10=6
-h(lN34)=(62 * 2)%10=4
+h(lN12)=
+h(lN34)=
 
-h(root)=(64 * 2)%10=8
+h(root)=
 
 Angenommen jemand behauptet im Beispielarray wäre eine 9 (anstelle der 1) enthalten. Welche Nodes innerhalb des MerkleTrees würden sich dadurch wie ändern?
-
-1. h(leafNode4) - wäre dann eine 8
-2. h(lN34) - wäre dann (68 * 2) % 10=6
-3. h(root) - wäre dann (66 * 2) % 10=2
 
 
 Bitte erläutern Sie mindestens einen Anwendungsfall von Merkletrees.   
@@ -130,7 +109,6 @@ ape, apple, organ, organism
 
 Bitte erläutern Sie die Notwendigkeit von Konsensalgorithmen in einem verteilten System wie z.B. der Ethereum Blockchain.  
 
-Aus welchen Gründen plant Vitalik Buterin & Friends aus Ihrer Sicht den Umstieg von Proof of Work auf Proof of Stake?
 
 Bitte erläutern Sie wie ein "51% Angriff" auf die Bitcoin Blockchain gestaltet werden könnte und wie ein potentieller Angreifer davon beispielsweise profitieren könnte.
 
@@ -139,59 +117,7 @@ Bitte erläutern Sie wie ein "51% Angriff" auf die Bitcoin Blockchain gestaltet 
 ### Digitale Währungen 
 CBDCs vs. Ether
 
-### Decentralized Finance
-Stichworte:  
-Lending, Borrowing, Yield Farming, Zahlungsverkehr, Investing
-
-### Decentralized Governance 
-Votingpower hängt z.B. von der Anzahl der gesammelten governance tokens ab... 
-https://github.com/distributed-ledger-technology/airdrop
-
-### Decentralized Web
-Distributed Deployments & DDNS- see https://ens.domains  
-
-### Kunst / Collectibles / GamingAssets - Non Fungible (ERC721) & Semi Fungible (ERC1155) Tokens 
-
-... den Studis morgen hierzu eine Aufgabe vorschlagen.
-
-https://wizard.openzeppelin.com/#erc1155
-
-```sol
-// SPDX-License-Identifier: GNU GPL
-pragma solidity ^0.8.2;
-
-import "@openzeppelin/contracts/token/ERC1155/ERC1155.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
-
-contract MyToken is ERC1155, Ownable {
-    constructor() ERC1155("") {}
-
-    function setURI(string memory newuri) public onlyOwner {
-        _setURI(newuri);
-    }
-}
-```
-
-### Implementierungen 
-#### TypeScript
-https://deno.land/x/web3  
-https://deno.land/x/airdrop  
-
-Welche Informationen und Module benötigen Sie wenn Sie einen Airdrop für Ihre Early Adopters gestalten möchten, welchen Sie über ein TypeScript Programm lancieren?
-
-1. Empfänger Wallet Adressen
-2. ABI
-3. https://deno.land/x/web3
-4. provider url (e.g. von infura.io oder zu einer eigenen Ethereum node,...)
-
-
-```ts
-tbd
-``` 
-
-#### Solidity
-### ERC20 Basics
-Ziel: Der folgende SC soll eine Währung namens QuinoaCoin mit den folgenden Eigenschafte definieren:  
+Der folgende SC soll eine Währung namens QuinoaCoin mit den folgenden Eigenschafte definieren:  
 1. Nachkommastellen: 18
 2. Gesamtzahl an Tokens (fixed supply): 2000000
 
@@ -219,6 +145,21 @@ contract QuinoaCoin is ERC20 {
 ```
 
 
+### Decentralized Finance
+Stichworte:  
+Lending, Borrowing, Yield Farming, Zahlungsverkehr, Investing
+
+### Decentralized Governance 
+Votingpower hängt z.B. von der Anzahl der gesammelten governance tokens ab... 
+https://github.com/distributed-ledger-technology/airdrop
+
+### Decentralized Web
+Distributed Deployments & DDNS- see https://ens.domains  
+
+### Kunst / Collectibles / GamingAssets - Non Fungible (ERC721) & Semi Fungible (ERC1155) Tokens 
+
+
+
 ## On-Chain / Off-Chain Verbindungen
 Example: https://deno.land/x/airdrop@v0.1.0/example-airdrops/launch-airdrop-for-wwi19seb.ts ... via TypeScript programm
 Application Binary Interfaces Usage Example: https://deno.land/x/airdrop@v0.1.0/src/airdrop-service.ts#L16 ... um eine Repräsentation des Smart Contracts (der z.B. auf der Ethereum Blockchain deployed ist) im TypeScript Programm zu erhalten und damit Funktionen dieses Smart Contracts vom TypeScript Programm aus zu triggern.
@@ -229,7 +170,18 @@ Application Binary Interfaces Usage Example: https://deno.land/x/airdrop@v0.1.0/
 https://deno.land/x/airdrop@v0.1.0/example-abis/ropsten-0x7910f84868488da3377833ccaa0e5b2b42edd9a6.ts
 
 
-#### Solidity
+Welche Informationen und Module benötigen Sie wenn Sie einen Airdrop für Ihre Early Adopters gestalten möchten, welchen Sie über ein TypeScript Programm lancieren?
+
+1. Empfänger Wallet Adressen
+2. ABI
+3. https://deno.land/x/web3
+4. provider url (e.g. von infura.io oder zu einer eigenen Ethereum node,...)
+
+
+```ts
+tbd
+``` 
+
 
 
 ## Eigeninitiative / Eigeninteresse
