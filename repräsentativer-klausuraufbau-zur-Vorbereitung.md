@@ -15,6 +15,7 @@ Beschreiben Sie ein Szenario, in welchem Sie eine dApp anstelle einer klassische
 
 Inwiefern könnte der Zeitraum der Veröffentlichung des Bitcoin Whitepapers (31.10.2008 in einer Kryptographie-Mailingliste der Cypherpunks) und der Zeitraum der globalen Finanzkrise 2008 miteinander zusammenhängen?
 
+
 ### Einwegfunktionen
 
 Welche Einwegfunktion spielt im Bitcoin System eine wesentliche Rolle bzw. zwei wesentliche Rollen? Bitte erläutern Sie dies.
@@ -29,6 +30,9 @@ Bitte nennen Sie 3 Bedingungen, die erfüllt sein müssen, damit eine Hashfunkti
 Bitte beschreiben Sie ein Szenario welches typisch ist für die Kombination aus 1 & 2 im Detail.
 
 Inwiefern spielen digitale Signaturen bei Cryptowährungen wie Bitcoin & Ether eine wesentliche Rolle?  
+
+Beschreiben Sie ein Scenario, in welchem Alice an Bob eine vertrauliche Nachricht senden möchte und Bob sicher sein möchte, dass die Nachricht tatsächlich von Alice kommt. Hilfestellung: Was wird wann mit welchem Key verschlüsselt / entschlüsselt? 
+
 
 ### Datenstrukturen 
 #### Bloomfilter
