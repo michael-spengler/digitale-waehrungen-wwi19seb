@@ -228,7 +228,7 @@ Describe you own favorite topic wrt. the Blockchain space (4 Punkte)
 
 
 # Tipp
-Erledigt in der Klausur zunächst die Aufgaben, welche ihr von Eurem individuellen Flow her zügig erledigen könnt und macht Euch danach an die Aufgaben, welche etwas mehr Zeit / Geduld oder Kreativität beanspruchen. 
+Erledigt in der Klausur zunächst die Aufgaben, welche ihr von Eurem individuellen Flow her zügig erledigen könnt und macht Euch danach an die Aufgaben, welche etwas mehr Zei / Geduld oder gar Kreativität beanspruchen. 
 
 
 
