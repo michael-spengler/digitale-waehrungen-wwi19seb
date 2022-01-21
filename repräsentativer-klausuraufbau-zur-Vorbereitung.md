@@ -1,4 +1,4 @@
-# Übungsklausur 2 - Under Construction
+# In Etwa Repräsentativer Klausuraufbau
 
 ## Grundlagen zur Blockchaintechnologie
 
