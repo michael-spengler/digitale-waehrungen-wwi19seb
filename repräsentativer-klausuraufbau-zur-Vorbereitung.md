@@ -125,7 +125,7 @@ Votingpower hängt z.B. von der Anzahl der gesammelten governance tokens ab...
 https://github.com/distributed-ledger-technology/airdrop
 
 ### Decentralized Web
-Distributed Deployments & DDNS- see https://ens.domains  
+Distributed Deployments / File Servers --> IPFS & DDNS- see https://ens.domains  
 
 ### Kunst / Collectibles / GamingAssets - Non Fungible (ERC721) & Semi Fungible (ERC1155) Tokens 
 
