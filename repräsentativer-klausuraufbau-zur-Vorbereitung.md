@@ -140,6 +140,8 @@ Bitte erläutern Sie wie ein "51% Angriff" auf die Bitcoin Blockchain gestaltet 
 CBDCs vs. Ether
 
 ### Decentralized Finance
+Stichworte:  
+Lending, Borrowing, Yield Farming, Zahlungsverkehr, Investing
 
 ### Decentralized Governance 
 Votingpower hängt z.B. von der Anzahl der gesammelten governance tokens ab... 
