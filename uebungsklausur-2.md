@@ -148,9 +148,26 @@ https://github.com/distributed-ledger-technology/airdrop
 ### Decentralized Web
 Distributed Deployments & DDNS- see https://ens.domains  
 
-### NFTs - Kunst / Collectibles
+### Kunst / Collectibles / GamingAssets - Non Fungible (ERC721) & Semi Fungible (ERC1155) Tokens 
+
+... den Studis morgen hierzu eine Aufgabe vorschlagen.
+
+https://wizard.openzeppelin.com/#erc1155
+
 ```sol
-tbd
+// SPDX-License-Identifier: GNU GPL
+pragma solidity ^0.8.2;
+
+import "@openzeppelin/contracts/token/ERC1155/ERC1155.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
+
+contract MyToken is ERC1155, Ownable {
+    constructor() ERC1155("") {}
+
+    function setURI(string memory newuri) public onlyOwner {
+        _setURI(newuri);
+    }
+}
 ```
 
 ### Implementierungen 
