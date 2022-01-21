@@ -192,7 +192,9 @@ Warum werden AirDrops durchgeführt? (Multiple Choice)
 - [ ] Denial of Service Angriffe durchführen
 
 
-Welche Idee steht hinter diesem Prinzip?
+## Layer 2 Scaling
+Inwiefern könnte Arbitrum die Adoption der Ethereum Technologie beschleunigen?   
+
 
 ### Implementierungen
 #### TypeScript
