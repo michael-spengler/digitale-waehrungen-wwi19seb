@@ -220,7 +220,8 @@ Welche Informationen und Module benötigen Sie wenn Sie einen Airdrop für Ihre 
 
 
 ## Eigeninitiative / Eigeninteresse
-Describe you own favorite topic wrt. the Blockchain space (4 Punkte)    
+Describe you own favorite topic wrt. the Blockchain space (... wissenschaftlich / educational ... ) (4 Punkte)    
+
 
 
 
@@ -228,7 +229,7 @@ Describe you own favorite topic wrt. the Blockchain space (4 Punkte)
 
 
 # Tipp
-Erledigt in der Klausur zunächst die Aufgaben, welche ihr von Eurem individuellen Flow her zügig erledigen könnt und macht Euch danach an die Aufgaben, welche etwas mehr Zei / Geduld oder gar Kreativität beanspruchen. 
+Erledigt in der Klausur zunächst die Aufgaben, welche Ihr von Eurem individuellen Flow her zügig erledigen könnt und macht Euch danach an die Aufgaben, welche etwas mehr Zeit / Geduld oder gar Kreativität beanspruchen. 
 
 
 
