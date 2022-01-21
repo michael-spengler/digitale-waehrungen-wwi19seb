@@ -215,11 +215,6 @@ Welche Informationen und Module benötigen Sie wenn Sie einen Airdrop für Ihre 
 4. provider url (e.g. von infura.io oder zu einer eigenen Ethereum node,...)
 
 
-```ts
-tbd
-``` 
-
-
 
 ## Eigeninitiative / Eigeninteresse
 Describe you own favorite topic wrt. the Blockchain space (4 Punkte)    
