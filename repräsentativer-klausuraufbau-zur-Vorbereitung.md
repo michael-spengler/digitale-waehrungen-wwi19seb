@@ -77,7 +77,7 @@ h(lN34)=
 h(root)=  
   
 Angenommen jemand behauptet im Beispielarray wäre eine 9 (anstelle der 1) enthalten. Welche Nodes innerhalb des MerkleTrees würden sich dadurch wie ändern?
-Lösungscheck siehe Unit Test des bloomfilter moduls.
+Lösungscheck siehe merkletrees deno modul.
 
 Bitte erläutern Sie mindestens einen Anwendungsfall von Merkletrees.   
 
