@@ -49,16 +49,16 @@ Bitte erstellen Sie einen Merkletree für die Einträge im untenstehenden Beispi
 const exampleArray = [2,7,8,1]  
 h(x)=(x * 2)%10  
 
-h(leafNode1)=
-h(leafNode2)=
-h(leafNode3)=
-h(leafNode4)=
+h(leafNode1)=  
+h(leafNode2)=  
+h(leafNode3)=  
+h(leafNode4)=  
 
-h(lN12)=
-h(lN34)=
-
-h(root)=
-
+h(lN12)=  
+h(lN34)=  
+ 
+h(root)=  
+  
 Angenommen jemand behauptet im Beispielarray wäre eine 9 (anstelle der 1) enthalten. Welche Nodes innerhalb des MerkleTrees würden sich dadurch wie ändern?
 
 
