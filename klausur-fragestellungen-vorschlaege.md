@@ -115,12 +115,6 @@ Im ersten Schritt werden die untersten Werte (z.B. Namen) gehasht. Danach werden
 Lösung:
 Alle Transaktionen werden einzeln gehasht. Im Anschluss werden sie mit ihrem Nachbarn konkateniert und erneut gehasht. Dies wird solange durchgeführt, bis ein Root-Hash(Hash des Blocks) entsteht. Durch die Merkle Trees werden Simplified Payment Verification vereinfacht, indem nicht alle Transaktionen geteilt werden müssen, sondern nur die, die für die Berechnung des Root-Hashes benötigt werden. Dies Prinzip wird als Light Node bezeichnet.  
 
-
-## Welche Probleme können durch Merkle-Trees gelöst werden?
-Lösung: 
-Wird im laufe der nächsten Tage bearbeitet ...
-Die Merkle-Trees ermöglichen sicheres agieren in einer dezentralen no-trust environment durch die Voll- oder Teilverifikation  einzelner Daten.
-
 ## Warum werden AirDrops durchgeführt? (Multiple Choice)
 - [x] Early Adopters belohnen
 - [x] Voting Power verteilen
