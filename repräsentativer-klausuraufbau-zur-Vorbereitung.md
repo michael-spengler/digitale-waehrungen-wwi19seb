@@ -6,7 +6,6 @@
 Unter welchen Umständen ist die Nutzung von verteilten Logbüchern im Vergleich zu zentral verwalteten Logbüchern aus Ihrer Sicht empfehlenswert?
 
 ### Einwegfunktionen
-https://deno.land/x/hash
 
 Welche Einwegfunktion spielt im Bitcoin System eine wesentliche Rolle bzw. zwei wesentliche Rollen? Bitte erläutern Sie dies.
 
@@ -20,38 +19,7 @@ Inwiefern spielen digitale Signaturen bei Cryptowährungen wie Bitcoin & Ether e
 
 ### Datenstrukturen 
 #### Bloomfilter
-https://deno.land/x/bloomfilter  
 
-Bitte erläutern Sie mindestens einen Anwendungsfall von Bloomfilters.    
-
-Welche Vor- und Nachteile hat die Erhöhung der Anzahl an Bits im Bitset & welche Vor- und Nachteile hat die Erhöhung der Anzahl an genutzten Hash Funktionen bei Bloomfilters im Allgemeinen. Warum ist das so?  
-(https://hur.st/bloomfilter/?n=100000&p=0.6&m=&k=1)
-
-Welchen Output erwarten Sie bei der Ausführung des folgenden Codes?
-
-```ts
-import { BloomFilter } from "https://deno.land/x/bloomfilter/mod.ts"
-
-const numberOfExpectedItemsInArray = 10000
-const falsePositiveRate = 0.1 // 10 percent
-
-const numberOfBitsInBitset = BloomFilter.getOptimalNumberOfBits(numberOfExpectedItemsInArray, falsePositiveRate)
-const numberOfHashFunctions = BloomFilter.getOptimalNumberOfHashFunctions(numberOfBitsInBitset, numberOfExpectedItemsInArray))
-
-const bloomFilter = new BloomFilter(numberOfBitsInBitset, numberOfHashFunctions)
-
-const testArray = ["dog", "chicken", "cat"]
-
-for (const entry of testArray) {
-    bloomFilter.add(entry)
-}
-
-let actualTestResult = bloomFilter.test("horse")
-console.log(actualTestResult) 
-
-actualTestResult = bloomFilter.test("cat")
-console.log(actualTestResult)
-```
 
 Angenommen Sie nutzen einen Bloomfilter mit einem Bitset der Länge 11 mit den Bloombits 0 bis 10 sowie den folgenden Einwegfunktionen zur Belegung der Bits:  
 h(1)=(x * 2)%11  
@@ -70,10 +38,13 @@ const exampleArray = [2, 5, 6]
 Würde der Bloomfilter für die folgenden Zahlen false positives liefern?  
 const entriesToBeValidated = [3, 34]  
 
+Welche Vor- und Nachteile hat die Erhöhung der Anzahl an Bits im Bitset & welche Vor- und Nachteile hat die Erhöhung der Anzahl an genutzten Hash Funktionen bei Bloomfilters im Allgemeinen. Warum ist das so?  
+(https://hur.st/bloomfilter/?n=100000&p=0.6&m=&k=1)
+
+Bitte erläutern Sie mindestens einen Anwendungsfall von Bloomfilters.    
 
 
 #### Merkletrees
-https://deno.land/x/merkletrees  
 Bitte erstellen Sie einen Merkletree für die Einträge im untenstehenden Beispiel Array unter Nutzung der darunter stehenden Einwegfunktion:   
 const exampleArray = [2,7,8,1]  
 h(x)=(x * 2)%10  
