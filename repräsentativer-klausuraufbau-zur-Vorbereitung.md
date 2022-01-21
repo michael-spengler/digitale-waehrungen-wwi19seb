@@ -55,6 +55,8 @@ const exampleArray = [2, 5, 6]
 Würde der Bloomfilter für die folgenden Zahlen false positives liefern?  
 const entriesToBeValidated = [3, 34]  
 
+Lösungscheck siehe Unit Test des bloomfilter moduls
+
 Welche Vor- und Nachteile hat die Erhöhung der Anzahl an Bits im Bitset & welche Vor- und Nachteile hat die Erhöhung der Anzahl an genutzten Hash Funktionen bei Bloomfilters im Allgemeinen. Warum ist das so?  
 (https://hur.st/bloomfilter/?n=100000&p=0.6&m=&k=1)
 
