@@ -35,19 +35,19 @@ Beschreiben Sie ein Szenario, in welchem Alice an Bob eine vertrauliche Nachrich
 #### Bloomfilter
 
 
-Angenommen Sie nutzen einen Bloomfilter mit einem Bitset der Länge 11 mit den Bloombits 0 bis 10 sowie den folgenden Einwegfunktionen zur Belegung der Bits:  
-h1(x)=(x * 2)%11  
-h2(x)=(x * 3)%11  
-h3(x)=(x * 4)%11  
+Angenommen Sie nutzen einen Bloomfilter mit einem Bitset der Länge 13 mit den Bloombits 0 bis 12 sowie den folgenden Einwegfunktionen zur Belegung der Bits:  
+h1(x)=(x * 2)%13  
+h2(x)=(x * 3)%13  
+h3(x)=(x * 4)%13  
 
 Wie sieht das Bitset jeweils nach dem Hinzufügen der folgenden Zahlen aus?  
-const exampleArray = [2, 5, 6]
+const exampleArray = [4, 7, 15]
 
---> Bitset nach dem Hinzufügen der 2:   
+--> Bitset nach dem Hinzufügen der 4:   
 
---> Bitset nach dem Hinzufügen der 5:  
+--> Bitset nach dem Hinzufügen der 7:  
 
---> Bitset nach dem Hinzufügen der 6:   
+--> Bitset nach dem Hinzufügen der 15:   
 
 Würde der Bloomfilter für die folgenden Zahlen false positives liefern?  
 const entriesToBeValidated = [3, 34]  
