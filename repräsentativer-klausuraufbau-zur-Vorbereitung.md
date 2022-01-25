@@ -232,6 +232,15 @@ Describe you own favorite topic wrt. the Blockchain space (... wissenschaftlich 
 # Tipp
 Erledigt in der Klausur zunächst die Aufgaben, welche Ihr von Eurem individuellen Flow her zügig erledigen könnt und macht Euch danach an die Aufgaben, welche etwas mehr Zeit / Geduld oder gar Kreativität beanspruchen. 
 
+Bitte schreibt die Antworten grundsätzlich in ganzen Sätzen, damit ich merke, dass Ihr nicht nur Stichworte auswendig lernt. 
+
+Zum Thema Smart Contracts bitte z.B. 
+https://github.com/michael-spengler/blockchain-technologie-und-anwendungsgebiete-vorlesungsreihe#h%C3%A4ufig-genutzte-smart-contracts
+
+anschauen. 
+
+
+
 
 
 
