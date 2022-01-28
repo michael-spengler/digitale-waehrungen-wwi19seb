@@ -44,14 +44,22 @@ Vergleiche [deno.land](https://deno.land) und [nest.land](https://nest.land)
 ### 1.4 Distributed Apps (DApps)
 Apps, die keinen zentralen web-server benötigen, sondern welche als Backend ein verteiltes System wie beispielsweise die Ethereum Blockchain oder das [Interplanetary File System (IPFS)](https://ipfs.io/), sowie verteilte Domain Name Services (DNS) wie z.B. [ens.domains](https://ens.domains) nutzen. 
 
+Manche Leute nenn ihre App schon DApp sobald sie metamask integriert haben und darüber die Interaktion mit Smart Contracts für Ihre Nutzer bereitstellen. 
+
+Please remember with great power comes great responsibility --> achtet & pflegt ethischen Kompass von Zeit zu Zeit.
+Governance Tokens ... Incentive Systeme 
+
+
 ### 1.5 Web3Verse NFTs Formerly Metaverse
 ERC721 Tokens... Crypto Kitties... Kunst und das Web3verse (formerly Metaverse)
+
 
 ## 2 Technologische Grundlagen
 ### 2.1 Distributed Ledger Technologie
 Von zentralen zu dezentralen Ledgers...  
 Challenge: Distributed Consensus...  
 Konsensalgorithmen Proof of Work, Proof of Stake, etc. 
+
 
 ### 2.2 Das Bitcoin Whitepaper
 Das [Bitcoin Whitepaper](https://bitcoin.org/bitcoin.pdf)...
