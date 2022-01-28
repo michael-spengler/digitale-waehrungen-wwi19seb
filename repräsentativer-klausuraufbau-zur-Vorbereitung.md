@@ -185,7 +185,7 @@ Was sind für Sie Unterschiede zwischen zentralen Exchanges (e.b. binance.com, c
 
 ## On-Chain / Off-Chain Verbindungen
 Example: https://deno.land/x/airdrop/example-airdrops/launch-airdrop-for-wwi19seb.ts ... via TypeScript programm
-Application Binary Interfaces Usage Example: https://deno.land/x/airdrop/src/airdrop-service.ts#L16 ... um eine Repräsentation des Smart Contracts (der z.B. auf der Ethereum Blockchain deployed ist) im TypeScript Programm zu erhalten und damit Funktionen dieses Smart Contracts vom TypeScript Programm aus zu triggern.
+Application Binary Interfaces Usage Example: https://deno.land/x/airdrop/src/airdrop-service.ts ... um eine Repräsentation des Smart Contracts (der z.B. auf der Ethereum Blockchain deployed ist) im TypeScript Programm zu erhalten und damit Funktionen dieses Smart Contracts vom TypeScript Programm aus zu triggern.
 
 ## Mining
 Wofür steht die Abkürzung "ASIC" im Bezug auf Mininghardware?  
