@@ -50,8 +50,75 @@ Please remember with great power comes great responsibility --> achtet & pflegt 
 Governance Tokens ... Incentive Systeme 
 
 
-### 1.5 Web3Verse NFTs Formerly Metaverse
-ERC721 Tokens... Crypto Kitties... Kunst und das Web3verse (formerly Metaverse)
+### 1.5 Web3Verse NFTs / Semi Fungible Token - Formerly Metaverse
+ERC721 Tokens... && ERC1155 Tokens  
+
+Crypto Kitties... Kunst und das Web3verse (formerly Metaverse)
+
+### Unique Collectible On Ropsten (ERC721)  
+```sol
+
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.2;
+
+import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
+import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
+
+contract MyToken is ERC721, ERC721URIStorage {
+    constructor() ERC721("MyToken", "MTK") {}
+
+    // The following functions are overrides required by Solidity.
+
+    function _burn(uint256 tokenId) internal override(ERC721, ERC721URIStorage) {
+        super._burn(tokenId);
+    }
+
+    function tokenURI(uint256 tokenId)
+        public
+        view
+        override(ERC721, ERC721URIStorage)
+        returns (string memory)
+    {
+        return super.tokenURI(tokenId);
+    }
+}
+
+```
+
+Challenge: Which wallet to use for interaction
+
+
+### Semi Unique Collectible On Ropsten (ERC1155)
+
+https://ropsten.etherscan.io/address/0xdcfba45751726c7dfaf9950e96eef7026d5afb73  
+
+[Storing NFT Data Using IPFS](https://docs.ipfs.io/how-to/best-practices-for-nft-data/#best-practices-for-storing-nft-data-using-ipfs)
+
+```sol
+
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.2;
+
+import "@openzeppelin/contracts/token/ERC1155/ERC1155.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
+import "@openzeppelin/contracts/token/ERC1155/extensions/ERC1155Supply.sol";
+
+contract OurFancyERC1155Token is ERC1155, Ownable, ERC1155Supply {
+    constructor() ERC1155("") {}
+
+    function setURI(string memory newuri) public onlyOwner {
+        _setURI(newuri);
+    }
+
+    // The following functions are overrides required by Solidity.
+
+    function _beforeTokenTransfer(address operator, address from, address to, uint256[] memory ids, uint256[] memory amounts, bytes memory data)
+        internal
+        override(ERC1155, ERC1155Supply)
+    {
+        super._beforeTokenTransfer(operator, from, to, ids, amounts, data);
+    }
+}
 
 
 ## 2 Technologische Grundlagen
