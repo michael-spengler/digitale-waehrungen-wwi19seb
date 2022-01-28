@@ -119,7 +119,7 @@ contract OurFancyERC1155Token is ERC1155, Ownable, ERC1155Supply {
         super._beforeTokenTransfer(operator, from, to, ids, amounts, data);
     }
 }
-
+```
 
 ## 2 Technologische Grundlagen
 ### 2.1 Distributed Ledger Technologie
