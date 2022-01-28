@@ -184,8 +184,8 @@ Was verstehen Sie unter einem Stable Coin? Auf welche Arten können Stable Coins
 Was sind für Sie Unterschiede zwischen zentralen Exchanges (e.b. binance.com, coinbase.com etc.) und dezentralen Exchanges (e.g. uniswap.org)? 
 
 ## On-Chain / Off-Chain Verbindungen
-Example: https://deno.land/x/airdrop@v0.1.0/example-airdrops/launch-airdrop-for-wwi19seb.ts ... via TypeScript programm
-Application Binary Interfaces Usage Example: https://deno.land/x/airdrop@v0.1.0/src/airdrop-service.ts#L16 ... um eine Repräsentation des Smart Contracts (der z.B. auf der Ethereum Blockchain deployed ist) im TypeScript Programm zu erhalten und damit Funktionen dieses Smart Contracts vom TypeScript Programm aus zu triggern.
+Example: https://deno.land/x/airdrop/example-airdrops/launch-airdrop-for-wwi19seb.ts ... via TypeScript programm
+Application Binary Interfaces Usage Example: https://deno.land/x/airdrop/src/airdrop-service.ts#L16 ... um eine Repräsentation des Smart Contracts (der z.B. auf der Ethereum Blockchain deployed ist) im TypeScript Programm zu erhalten und damit Funktionen dieses Smart Contracts vom TypeScript Programm aus zu triggern.
 
 ## Mining
 Wofür steht die Abkürzung "ASIC" im Bezug auf Mininghardware?  
